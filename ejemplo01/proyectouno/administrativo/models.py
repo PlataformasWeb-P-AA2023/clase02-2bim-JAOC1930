@@ -10,7 +10,7 @@ class Estudiante(models.Model):
 
 
     def __str__(self):
-        return "%s - %s - %s - edad: %d" % (self.nombre, 
+        return "Estudiante: %s - %s - %s - edad: %d" % (self.nombre, 
                 self.apellido,
                 self.cedula,
                 self.edad)
